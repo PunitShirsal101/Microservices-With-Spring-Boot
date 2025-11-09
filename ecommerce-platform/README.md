@@ -1,5 +1,7 @@
 # Enterprise E-Commerce Microservices Platform
 
+# In-Progress
+
 A comprehensive e-commerce platform built with Spring Boot microservices, featuring service discovery and event-driven communication.
 
 ## Architecture Overview
@@ -286,5 +288,7 @@ For support and questions:
 - Create an issue in the repository
 - Check the troubleshooting section
 - Review service logs using `./deploy.sh logs [service-name]`
+
+
 
 ---
