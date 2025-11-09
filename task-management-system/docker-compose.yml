@@ -19,9 +19,7 @@ services:
 
   # Backend Service
   backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
+    image: spunit555/task-management-backend:v1.0
     container_name: taskmanagement-backend
     restart: unless-stopped
     ports:
@@ -41,9 +39,7 @@ services:
 
   # Frontend Service
   frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
+    image: spunit555/task-management-frontend:v1.0
     container_name: taskmanagement-frontend
     restart: unless-stopped
     ports:
