@@ -1,0 +1,11 @@
+com\bankingsystemapi\controller\TransactionControllerIntegrationTest.class
+com\bankingsystemapi\service\AccountServiceTest.class
+com\bankingsystemapi\service\FraudDetectionServiceTest.class
+com\bankingsystemapi\controller\AuthControllerIntegrationTest.class
+com\bankingsystemapi\BankingSystemApiApplicationTests.class
+com\bankingsystemapi\controller\AccountControllerIntegrationTest.class
+com\bankingsystemapi\service\TransactionServiceTest.class
+com\bankingsystemapi\service\UserServiceTest.class
+com\bankingsystemapi\service\ComplianceServiceTest.class
+com\bankingsystemapi\util\JwtUtilTest.class
+com\bankingsystemapi\controller\UserControllerIntegrationTest.class
