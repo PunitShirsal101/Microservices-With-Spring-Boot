@@ -1,0 +1,89 @@
+{
+  "took" : 1,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 7,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "iot-events",
+        "_id" : "1vsQaZoBFCxGYEFft2mc",
+        "_score" : 1.0,
+        "_source" : {
+          "deviceId" : "device1",
+          "temperature" : 25.5,
+          "timestamp" : 1234567890
+        }
+      },
+      {
+        "_index" : "iot-events",
+        "_id" : "1_sQaZoBFCxGYEFfuGk1",
+        "_score" : 1.0,
+        "_source" : {
+          "deviceId" : "device1",
+          "temperature" : 25.5,
+          "timestamp" : 1234567890
+        }
+      },
+      {
+        "_index" : "iot-events",
+        "_id" : "2PsQaZoBFCxGYEFfuGlI",
+        "_score" : 1.0,
+        "_source" : {
+          "deviceId" : "device1",
+          "temperature" : 25.5,
+          "timestamp" : 1234567890
+        }
+      },
+      {
+        "_index" : "iot-events",
+        "_id" : "2fsSaZoBFCxGYEFfDWmy",
+        "_score" : 1.0,
+        "_source" : {
+          "deviceId" : "device1",
+          "temperature" : 25.5,
+          "timestamp" : 1234567890
+        }
+      },
+      {
+        "_index" : "iot-events",
+        "_id" : "2vsSaZoBFCxGYEFfDWnR",
+        "_score" : 1.0,
+        "_source" : {
+          "deviceId" : "device1",
+          "temperature" : 25.5,
+          "timestamp" : 1234567890
+        }
+      },
+      {
+        "_index" : "iot-events",
+        "_id" : "2_sSaZoBFCxGYEFfDWnn",
+        "_score" : 1.0,
+        "_source" : {
+          "deviceId" : "device1",
+          "temperature" : 25.5,
+          "timestamp" : 1234567890
+        }
+      },
+      {
+        "_index" : "iot-events",
+        "_id" : "3PsSaZoBFCxGYEFfDWn5",
+        "_score" : 1.0,
+        "_source" : {
+          "deviceId" : "device1",
+          "temperature" : 25.5,
+          "timestamp" : 1234567890
+        }
+      }
+    ]
+  }
+}
