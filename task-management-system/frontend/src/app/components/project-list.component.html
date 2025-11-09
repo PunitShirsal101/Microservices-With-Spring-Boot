@@ -1,0 +1,13 @@
+<div class="project-list">
+  <h2>Projects</h2>
+  <button (click)="addProject()">Add Project</button>
+  <ul>
+    <li *ngFor="let project of projects">
+      <strong>{{ project.name }}</strong> - {{ project.description }} ({{ project.status }})
+      <button (click)="editProject(project)">Edit</button>
+      <button (click)="deleteProject(project.id!)">Delete</button>
+    </li>
+  </ul>
+  <app-project-form *ngIf="showForm && selectedProject" [project]="selectedProject" (save)="saveProject($event)"></app-project-form>
+  <button *ngIf="showForm" (click)="cancel()">Cancel</button>
+</div>

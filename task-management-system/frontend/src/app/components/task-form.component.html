@@ -1,0 +1,10 @@
+<form (ngSubmit)="onSubmit()">
+  <input type="text" placeholder="Title" [(ngModel)]="task.title" name="title" required />
+  <input type="text" placeholder="Description" [(ngModel)]="task.description" name="description" required />
+  <select [(ngModel)]="task.status" name="status">
+    <option value="Pending">Pending</option>
+    <option value="In Progress">In Progress</option>
+    <option value="Completed">Completed</option>
+  </select>
+  <button type="submit">Save Task</button>
+</form>

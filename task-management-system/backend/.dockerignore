@@ -1,0 +1,19 @@
+# Allow target directory since we need the JAR file
+# target/
+*.log
+*.tmp
+.DS_Store
+.vscode/
+.idea/
+*.iml
+.git/
+.gitignore
+README.md
+# Exclude everything except the JAR file
+target/
+!target/backend-0.0.1-SNAPSHOT.jar
+.env
+.env.local
+# Keep pom.xml and src for Docker build
+# pom.xml
+# src/
