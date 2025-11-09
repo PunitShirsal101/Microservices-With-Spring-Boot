@@ -13,6 +13,6 @@
       - https://hub.docker.com/r/spunit555/task-management-backend
       - https://hub.docker.com/r/spunit555/task-management-frontend
 
-# IOC-DATA-PROCESSING-PIPELINE
+# IOT-DATA-PROCESSING-PIPELINE
   - Code
     - https://github.com/PunitShirsal101/Microservices-With-Spring-Boot/tree/main/iot-data-processing-pipeline
