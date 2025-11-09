@@ -1,0 +1,15 @@
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\config\RedisCacheConfig.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\controller\OrderController.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\dto\CreateOrderRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\dto\OrderItemRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\dto\OrderItemResponse.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\dto\OrderResponse.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\dto\UpdateOrderStatusRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\entity\Order.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\entity\OrderItem.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\entity\OrderStatus.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\entity\ShippingAddress.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\OrderServiceApplication.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\repository\OrderItemRepository.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\repository\OrderRepository.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\order-service\src\main\java\com\enterprise\ecommerce\order\service\OrderService.java

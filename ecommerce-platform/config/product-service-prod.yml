@@ -1,0 +1,129 @@
+spring:
+  main:
+    lazy-initialization: true
+
+  datasource:
+    url: jdbc:postgresql://prod-db-server:5432/ecommerce-product
+    username: ${DB_USERNAME}
+    password: ${vault:secret/ecommerce/prod/database#db_password}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        "[show_sql]": false
+        "[format_sql]": false
+        jdbc:
+          "[batch_size]": 50
+        "[order_inserts]": true
+        "[order_updates]": true
+    open-in-view: false
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    validate-on-migrate: true
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${JWT_ISSUER_URI}
+
+  cache:
+    type: redis
+    redis:
+      time-to-live: 7200000 # 2 hours
+
+  data:
+    redis:
+      host: prod-redis-server
+      port: 6379
+      password: ${vault:secret/ecommerce/prod/redis#redis_password}
+      database: 1
+      timeout: 5000ms
+      lettuce:
+        pool:
+          max-active: 20
+          max-idle: 15
+          min-idle: 5
+          max-wait: 5000ms
+
+  kafka:
+    bootstrap-servers: prod-kafka-server:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      acks: all
+      retries: 10
+      batch-size: 32768
+      buffer-memory: 67108864
+      properties:
+        "[linger.ms]": 10
+    consumer:
+      group-id: product-service-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      auto-offset-reset: earliest
+      enable-auto-commit: false
+      properties:
+        "[spring.json.trusted.packages]": "com.enterprise.ecommerce.common.events,com.enterprise.ecommerce.product.events"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://prod-eureka-server:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: prod-product-service
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 90
+    metadata-map:
+      version: ${app.version:1.0.0}
+      description: "Product Catalog and Inventory Management Service"
+
+management:
+  zipkin:
+    tracing:
+      endpoint: http://prod-zipkin-server:9411/api/v2/spans
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: when-authorized
+  health:
+    redis:
+      enabled: true
+    db:
+      enabled: true
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+
+logging:
+  level:
+    "[com.enterprise.ecommerce.product]": WARN
+    "[org.springframework.security]": WARN
+    "[org.springframework.web]": WARN
+    "[org.hibernate.SQL]": ERROR
+    "[org.hibernate.type.descriptor.sql.BasicBinder]": ERROR
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+  file:
+    upload:
+      max-size: 50MB
+      allowed-types: "image/jpeg,image/png,image/gif,image/webp"
+      path: ${FILE_UPLOAD_PATH:/app/uploads/products/}

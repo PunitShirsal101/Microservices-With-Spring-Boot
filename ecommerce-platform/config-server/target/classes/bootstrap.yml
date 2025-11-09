@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: vault
+  cloud:
+    config:
+      server:
+        vault:
+          host: localhost
+          port: 8200
+          scheme: http
+          authentication: TOKEN
+          token: ${VAULT_TOKEN:hvs.CAES...}  # Replace with actual Vault token
+          kv-version: 2
+          backend: secret
+          default-key: application
+          profile-separator: '/'
+        git:
+          uri: https://github.com/your-org/config-repo  # Replace with actual config repo
+          search-paths: '{application}'
+          default-label: main
+        composite:
+          - type: vault
+          - type: git
+
+server:
+  port: 8888
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    org.springframework.cloud.config: DEBUG
+    org.springframework.vault: DEBUG

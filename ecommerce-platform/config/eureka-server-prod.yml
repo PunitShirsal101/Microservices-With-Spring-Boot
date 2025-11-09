@@ -1,0 +1,37 @@
+spring:
+  main:
+    lazy-initialization: true
+  profiles:
+    active: prod
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://prod-eureka-server:8761/eureka/
+  server:
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 60000
+    renewal-percent-threshold: 0.85
+
+management:
+  zipkin:
+    tracing:
+      endpoint: http://prod-zipkin-server:9411/api/v2/spans
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when-authorized
+
+logging:
+  level:
+    "[com.netflix.eureka]": WARN
+    "[com.netflix.discovery]": WARN
+    "[org.springframework.cloud]": WARN
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"

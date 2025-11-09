@@ -1,0 +1,17 @@
+com\enterprise\ecommerce\order\service\OrderService$1.class
+com\enterprise\ecommerce\order\config\RedisCacheConfig.class
+com\enterprise\ecommerce\order\entity\Order$1.class
+com\enterprise\ecommerce\order\service\OrderService.class
+com\enterprise\ecommerce\order\dto\OrderResponse.class
+com\enterprise\ecommerce\order\entity\OrderStatus.class
+com\enterprise\ecommerce\order\OrderServiceApplication.class
+com\enterprise\ecommerce\order\entity\ShippingAddress.class
+com\enterprise\ecommerce\order\dto\CreateOrderRequest.class
+com\enterprise\ecommerce\order\repository\OrderItemRepository.class
+com\enterprise\ecommerce\order\repository\OrderRepository.class
+com\enterprise\ecommerce\order\controller\OrderController.class
+com\enterprise\ecommerce\order\dto\UpdateOrderStatusRequest.class
+com\enterprise\ecommerce\order\entity\Order.class
+com\enterprise\ecommerce\order\dto\OrderItemResponse.class
+com\enterprise\ecommerce\order\entity\OrderItem.class
+com\enterprise\ecommerce\order\dto\OrderItemRequest.class

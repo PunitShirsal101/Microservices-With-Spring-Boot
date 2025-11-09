@@ -1,0 +1,3 @@
+com\enterprise\ecommerce\gateway\config\SecurityConfig.class
+com\enterprise\ecommerce\gateway\ApiGatewayApplication.class
+com\enterprise\ecommerce\gateway\config\RedisCacheConfig.class

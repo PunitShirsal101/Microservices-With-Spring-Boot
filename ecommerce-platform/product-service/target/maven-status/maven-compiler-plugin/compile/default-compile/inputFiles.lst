@@ -1,0 +1,16 @@
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\config\JwtAuthenticationFilter.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\config\RedisCacheConfig.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\config\SecurityConfig.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\controller\ProductController.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\dto\CategoryRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\dto\CategoryResponse.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\dto\ProductRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\dto\ProductResponse.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\dto\ProductSearchCriteria.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\entity\Category.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\entity\Product.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\ProductServiceApplication.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\repository\CategoryRepository.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\repository\ProductRepository.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\service\CategoryService.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\product-service\src\main\java\com\enterprise\ecommerce\product\service\ProductService.java

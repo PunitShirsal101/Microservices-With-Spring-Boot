@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:default}
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      fail-fast: false  # Eureka should start even if config server is not available
+      retry:
+        max-attempts: 5
+        max-interval: 2000
+        multiplier: 1.5

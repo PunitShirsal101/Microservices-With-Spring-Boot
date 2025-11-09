@@ -1,0 +1,14 @@
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\config\JwtAuthenticationEntryPoint.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\config\JwtAuthenticationFilter.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\config\RedisCacheConfig.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\config\SecurityConfig.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\controller\UserController.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\dto\AuthResponse.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\dto\LoginRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\dto\UserRegistrationRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\dto\UserResponse.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\entity\User.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\repository\UserRepository.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\service\CustomUserDetailsService.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\service\UserService.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\user-service\src\main\java\com\enterprise\ecommerce\user\UserServiceApplication.java

@@ -1,0 +1,14 @@
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\CartServiceApplication.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\config\CartConfig.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\config\RedisCacheConfig.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\controller\CartController.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\dto\AddToCartRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\dto\CartItemResponse.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\dto\CartResponse.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\dto\UpdateCartItemRequest.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\entity\Cart.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\entity\CartItem.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\repository\CartItemRepository.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\repository\CartRepository.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\service\CartService.java
+C:\Workspace\BACK_END\Microservices-With-Spring-Boot\ecommerce-platform\cart-service\src\main\java\com\enterprise\ecommerce\cart\service\ProductClient.java

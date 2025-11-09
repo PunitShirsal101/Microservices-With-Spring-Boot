@@ -1,0 +1,76 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  main:
+    banner-mode: console
+  banner:
+    location: banner.txt
+
+  # Vault Configuration for Config Server
+  cloud:
+    vault:
+      enabled: true
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: TOKEN
+      token: ${VAULT_TOKEN:hvs.CAES...}  # Should be set via environment variable
+      kv-version: 2
+      backend: secret
+      default-key: application
+      profile-separator: '/'
+      connection-timeout: 5000
+      read-timeout: 15000
+
+  # Security Configuration
+  security:
+    user:
+      name: ${CONFIG_SERVER_USERNAME:configuser}
+      password: ${CONFIG_SERVER_PASSWORD:configpass}
+
+# Eureka Client Configuration
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,refresh,bindings,env
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
+
+logging:
+  level:
+    org.springframework.cloud: INFO
+    org.springframework.vault: INFO
+    org.springframework.security: DEBUG
+    com.enterprise.ecommerce: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/config-server.log
+
+# Config Server specific settings
+encrypt:
+  key-store:
+    location: classpath:/server.jks  # Optional: for encryption keys
+    password: ${KEYSTORE_PASSWORD:changeit}
+    alias: config-server-key
