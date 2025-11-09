@@ -1,17 +1,16 @@
-Testing the Application:
-
-Access the Application:
-
+# Testing the Application:
 Frontend: http://localhost:4200
 Backend API: http://localhost:8080
 
+# Docker
+- https://hub.docker.com/r/spunit555/task-management-backend
+- https://hub.docker.com/r/spunit555/task-management-frontend
 
-API Endpoints Working:
+# API Endpoints Working:
 Authentication endpoints: /api/auth/*
 User management: /api/users/*
 Task management: /api/tasks/*
 Project management: /api/projects/*
-
 
 Test Commands:
 # Check backend health
