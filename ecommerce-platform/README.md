@@ -269,14 +269,6 @@ Services should be started in the following order:
 3. API Gateway
 4. Microservices
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
 ## License
 
 This project is licensed under the Apache License.
