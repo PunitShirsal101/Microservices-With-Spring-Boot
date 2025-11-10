@@ -41,7 +41,7 @@
         <junit.version>5.11.3</junit.version>
         
         <!-- Monitoring and Observability -->
-        <micrometer.version>1.14.2</micrometer.version>
+        <micrometer.version>1.16.0</micrometer.version>
         <zipkin.version>3.3.1</zipkin.version>
         
         <!-- Build and Plugin Versions -->
