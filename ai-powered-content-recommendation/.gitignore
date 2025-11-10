@@ -1,0 +1,30 @@
+# Virtual environments
+ml-service/venv/
+venv/
+
+# Build artifacts
+backend/target/
+*.class
+*.jar
+!backend/src/main/resources/**
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test screenshots (if not needed)
+Test-Screnshot/
