@@ -1,0 +1,87 @@
+version: 2
+updates:
+  # Enable version updates for Maven
+  - package-ecosystem: "maven"
+    directory: "/ecommerce-platform"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "PunitShirsal101"
+    assignees:
+      - "PunitShirsal101"
+    allow:
+      - dependency-type: "all"
+
+  - package-ecosystem: "maven"
+    directory: "/banking-system-api"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "PunitShirsal101"
+    assignees:
+      - "PunitShirsal101"
+    allow:
+      - dependency-type: "all"
+
+  - package-ecosystem: "maven"
+    directory: "/iot-data-processing-pipeline"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "PunitShirsal101"
+    assignees:
+      - "PunitShirsal101"
+    allow:
+      - dependency-type: "all"
+
+  - package-ecosystem: "maven"
+    directory: "/real-time-chat-application/backend"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "PunitShirsal101"
+    assignees:
+      - "PunitShirsal101"
+    allow:
+      - dependency-type: "all"
+
+  - package-ecosystem: "maven"
+    directory: "/task-management-system/backend"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "PunitShirsal101"
+    assignees:
+      - "PunitShirsal101"
+    allow:
+      - dependency-type: "all"
+
+  # Enable version updates for npm (for frontend parts)
+  - package-ecosystem: "npm"
+    directory: "/real-time-chat-application/frontend"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "PunitShirsal101"
+    assignees:
+      - "PunitShirsal101"
+    allow:
+      - dependency-type: "all"
+
+  - package-ecosystem: "npm"
+    directory: "/task-management-system/frontend"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "PunitShirsal101"
+    assignees:
+      - "PunitShirsal101"
+    allow:
+      - dependency-type: "all"
