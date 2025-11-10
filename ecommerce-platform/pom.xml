@@ -45,7 +45,7 @@
         <zipkin.version>3.3.1</zipkin.version>
         
         <!-- Build and Plugin Versions -->
-        <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
     </properties>
 
