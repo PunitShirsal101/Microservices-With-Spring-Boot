@@ -20,3 +20,7 @@
 # Real-Time-Chat-Application
   - Code React FrontEnd & Java Spring Boot Backend
     - https://github.com/PunitShirsal101/Microservices-With-Spring-Boot/tree/main/real-time-chat-application
+
+# AP-Powered-Content-Recommendation
+- Code
+    - https://github.com/PunitShirsal101/Microservices-With-Spring-Boot/tree/main/ai-powered-content-recommendation
