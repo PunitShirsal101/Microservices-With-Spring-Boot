@@ -26,7 +26,7 @@
         <flyway.version>10.20.1</flyway.version>
         
         <!-- Messaging and Communication -->
-        <kafka.version>3.8.1</kafka.version>
+        <kafka.version>4.1.0</kafka.version>
         <graphql.version>22.3</graphql.version>
         
         <!-- Security and JWT -->
