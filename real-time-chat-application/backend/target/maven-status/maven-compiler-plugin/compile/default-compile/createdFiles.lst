@@ -1,0 +1,16 @@
+com\example\chatbackend\model\Message.class
+com\example\chatbackend\controller\UserController.class
+com\example\chatbackend\controller\ChatController.class
+com\example\chatbackend\repository\UserRepository.class
+com\example\chatbackend\controller\FileController.class
+com\example\chatbackend\ChatBackendApplication.class
+com\example\chatbackend\filter\JwtAuthenticationFilter.class
+com\example\chatbackend\repository\MessageRepository.class
+com\example\chatbackend\service\JwtUtil.class
+com\example\chatbackend\config\SecurityConfig.class
+com\example\chatbackend\repository\ChatRepository.class
+com\example\chatbackend\model\Chat.class
+com\example\chatbackend\config\WebSocketConfig.class
+com\example\chatbackend\controller\AuthController.class
+com\example\chatbackend\model\User.class
+com\example\chatbackend\service\UserService.class
