@@ -23,7 +23,7 @@
         
         <!-- Database and Caching -->
         <postgresql.version>42.7.4</postgresql.version>
-        <flyway.version>10.20.1</flyway.version>
+        <flyway.version>11.16.0</flyway.version>
         
         <!-- Messaging and Communication -->
         <kafka.version>3.8.1</kafka.version>
