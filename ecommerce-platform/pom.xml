@@ -30,7 +30,7 @@
         <graphql.version>22.3</graphql.version>
         
         <!-- Security and JWT -->
-        <jjwt.version>0.12.6</jjwt.version>
+        <jjwt.version>0.13.0</jjwt.version>
         <spring-security.version>6.3.4</spring-security.version>
         
         <!-- Documentation -->
